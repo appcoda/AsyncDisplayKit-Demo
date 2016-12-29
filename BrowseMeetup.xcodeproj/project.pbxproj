@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		059F7FEBFC5CA11043AC76C0 /* Pods_BrowseMeetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58ACEA2527D8861814934210 /* Pods_BrowseMeetup.framework */; };
 		F4D8BE941E13708D00F8F901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BE931E13708D00F8F901 /* AppDelegate.swift */; };
-		F4D8BE961E13708D00F8F901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BE951E13708D00F8F901 /* ViewController.swift */; };
-		F4D8BE991E13708D00F8F901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D8BE971E13708D00F8F901 /* Main.storyboard */; };
 		F4D8BE9B1E13708D00F8F901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D8BE9A1E13708D00F8F901 /* Assets.xcassets */; };
 		F4D8BE9E1E13708D00F8F901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D8BE9C1E13708D00F8F901 /* LaunchScreen.storyboard */; };
+		F4D8BEA61E13712300F8F901 /* MeetupFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BEA51E13712300F8F901 /* MeetupFeedViewController.swift */; };
+		F4D8BEA81E13794800F8F901 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BEA71E13794800F8F901 /* Group.swift */; };
+		F4D8BEAA1E13798C00F8F901 /* Organizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BEA91E13798C00F8F901 /* Organizer.swift */; };
+		F4D8BEAC1E137C7E00F8F901 /* MeetupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BEAB1E137C7E00F8F901 /* MeetupService.swift */; };
+		F4D8BEAE1E137FB200F8F901 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BEAD1E137FB200F8F901 /* LocationService.swift */; };
+		F4D8BEB01E13804B00F8F901 /* MeetupFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BEAF1E13804B00F8F901 /* MeetupFeedDataManager.swift */; };
+		F4D8BEB21E1390A300F8F901 /* MeetupFeedInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BEB11E1390A300F8F901 /* MeetupFeedInteractorIO.swift */; };
+		F4D8BEB41E13FEF700F8F901 /* MeetupFeedTableDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BEB31E13FEF700F8F901 /* MeetupFeedTableDataProvider.swift */; };
+		F4D8BEB61E13FFBC00F8F901 /* GroupCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BEB51E13FFBC00F8F901 /* GroupCellNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3067AAD33BD745FBDE079A2F /* Pods-BrowseMeetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseMeetup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrowseMeetup/Pods-BrowseMeetup.debug.xcconfig"; sourceTree = "<group>"; };
+		58ACEA2527D8861814934210 /* Pods_BrowseMeetup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowseMeetup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD123BFF8525C522280BE994 /* Pods-BrowseMeetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowseMeetup.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrowseMeetup/Pods-BrowseMeetup.release.xcconfig"; sourceTree = "<group>"; };
 		F4D8BE901E13708D00F8F901 /* BrowseMeetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowseMeetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D8BE931E13708D00F8F901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4D8BE951E13708D00F8F901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4D8BE981E13708D00F8F901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4D8BE9A1E13708D00F8F901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D8BE9D1E13708D00F8F901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4D8BE9F1E13708D00F8F901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D8BEA51E13712300F8F901 /* MeetupFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupFeedViewController.swift; sourceTree = "<group>"; };
+		F4D8BEA71E13794800F8F901 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		F4D8BEA91E13798C00F8F901 /* Organizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organizer.swift; sourceTree = "<group>"; };
+		F4D8BEAB1E137C7E00F8F901 /* MeetupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupService.swift; sourceTree = "<group>"; };
+		F4D8BEAD1E137FB200F8F901 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		F4D8BEAF1E13804B00F8F901 /* MeetupFeedDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupFeedDataManager.swift; sourceTree = "<group>"; };
+		F4D8BEB11E1390A300F8F901 /* MeetupFeedInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupFeedInteractorIO.swift; sourceTree = "<group>"; };
+		F4D8BEB31E13FEF700F8F901 /* MeetupFeedTableDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupFeedTableDataProvider.swift; sourceTree = "<group>"; };
+		F4D8BEB51E13FFBC00F8F901 /* GroupCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCellNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				059F7FEBFC5CA11043AC76C0 /* Pods_BrowseMeetup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C7F00246A76F09CE2E227ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3067AAD33BD745FBDE079A2F /* Pods-BrowseMeetup.debug.xcconfig */,
+				DD123BFF8525C522280BE994 /* Pods-BrowseMeetup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F283226372F81BB2D055F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58ACEA2527D8861814934210 /* Pods_BrowseMeetup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4D8BE871E13708D00F8F901 = {
 			isa = PBXGroup;
 			children = (
 				F4D8BE921E13708D00F8F901 /* BrowseMeetup */,
 				F4D8BE911E13708D00F8F901 /* Products */,
+				1C7F00246A76F09CE2E227ED /* Pods */,
+				2F283226372F81BB2D055F6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +93,18 @@
 			isa = PBXGroup;
 			children = (
 				F4D8BE931E13708D00F8F901 /* AppDelegate.swift */,
-				F4D8BE951E13708D00F8F901 /* ViewController.swift */,
-				F4D8BE971E13708D00F8F901 /* Main.storyboard */,
 				F4D8BE9A1E13708D00F8F901 /* Assets.xcassets */,
 				F4D8BE9C1E13708D00F8F901 /* LaunchScreen.storyboard */,
 				F4D8BE9F1E13708D00F8F901 /* Info.plist */,
+				F4D8BEA51E13712300F8F901 /* MeetupFeedViewController.swift */,
+				F4D8BEA71E13794800F8F901 /* Group.swift */,
+				F4D8BEA91E13798C00F8F901 /* Organizer.swift */,
+				F4D8BEAB1E137C7E00F8F901 /* MeetupService.swift */,
+				F4D8BEAD1E137FB200F8F901 /* LocationService.swift */,
+				F4D8BEAF1E13804B00F8F901 /* MeetupFeedDataManager.swift */,
+				F4D8BEB11E1390A300F8F901 /* MeetupFeedInteractorIO.swift */,
+				F4D8BEB31E13FEF700F8F901 /* MeetupFeedTableDataProvider.swift */,
+				F4D8BEB51E13FFBC00F8F901 /* GroupCellNode.swift */,
 			);
 			path = BrowseMeetup;
 			sourceTree = "<group>";
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4D8BEA21E13708D00F8F901 /* Build configuration list for PBXNativeTarget "BrowseMeetup" */;
 			buildPhases = (
+				F341C458A25A0D82B2211247 /* [CP] Check Pods Manifest.lock */,
 				F4D8BE8C1E13708D00F8F901 /* Sources */,
 				F4D8BE8D1E13708D00F8F901 /* Frameworks */,
 				F4D8BE8E1E13708D00F8F901 /* Resources */,
+				408C6E5F8C393A02763C8178 /* [CP] Embed Pods Frameworks */,
+				8612A9D845E9F9C73FD6B031 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +173,80 @@
 			files = (
 				F4D8BE9E1E13708D00F8F901 /* LaunchScreen.storyboard in Resources */,
 				F4D8BE9B1E13708D00F8F901 /* Assets.xcassets in Resources */,
-				F4D8BE991E13708D00F8F901 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		408C6E5F8C393A02763C8178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrowseMeetup/Pods-BrowseMeetup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8612A9D845E9F9C73FD6B031 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrowseMeetup/Pods-BrowseMeetup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F341C458A25A0D82B2211247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4D8BE8C1E13708D00F8F901 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D8BE961E13708D00F8F901 /* ViewController.swift in Sources */,
+				F4D8BEAE1E137FB200F8F901 /* LocationService.swift in Sources */,
+				F4D8BEA61E13712300F8F901 /* MeetupFeedViewController.swift in Sources */,
+				F4D8BEB21E1390A300F8F901 /* MeetupFeedInteractorIO.swift in Sources */,
+				F4D8BEAA1E13798C00F8F901 /* Organizer.swift in Sources */,
 				F4D8BE941E13708D00F8F901 /* AppDelegate.swift in Sources */,
+				F4D8BEA81E13794800F8F901 /* Group.swift in Sources */,
+				F4D8BEB61E13FFBC00F8F901 /* GroupCellNode.swift in Sources */,
+				F4D8BEB41E13FEF700F8F901 /* MeetupFeedTableDataProvider.swift in Sources */,
+				F4D8BEAC1E137C7E00F8F901 /* MeetupService.swift in Sources */,
+				F4D8BEB01E13804B00F8F901 /* MeetupFeedDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4D8BE971E13708D00F8F901 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4D8BE981E13708D00F8F901 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4D8BE9C1E13708D00F8F901 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -258,6 +353,7 @@
 		};
 		F4D8BEA31E13708D00F8F901 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3067AAD33BD745FBDE079A2F /* Pods-BrowseMeetup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrowseMeetup/Info.plist;
@@ -270,6 +366,7 @@
 		};
 		F4D8BEA41E13708D00F8F901 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD123BFF8525C522280BE994 /* Pods-BrowseMeetup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrowseMeetup/Info.plist;
@@ -299,6 +396,7 @@
 				F4D8BEA41E13708D00F8F901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
